@@ -1,10 +1,29 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import Routes from './scr/routes';
+//import { StyleSheet, Text, View } from 'react-native';
+//import { Text, View } from 'react-native';
 
 export default function App() {
   return (
+    <Routes />
+  );
+}
+
+/*
+export default function App() {
+  return (
+    <View>
+      <Text>FILIPS OK</Text>
+    </View>
+  );
+}
+*/
+
+/*
+export default function App() {
+  return (
     <View style={styles.container}>
-      <Text>FILIPSS</Text>
+      <Text style={styles.title}>FILIPS OK</Text>
     </View>
   );
 }
@@ -12,8 +31,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#7159c1',
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  title: {
+    color: '#FFF',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
 });
+*/
