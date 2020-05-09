@@ -5,3 +5,6 @@ const api = axios.create({
 });
 
 export default api;
+
+// baseURL: 'http://192.168.100.15:3333'
+// baseURL: 'http://localhost:3333'

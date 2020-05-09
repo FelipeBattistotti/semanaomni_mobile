@@ -4,7 +4,7 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import { View, Text, Image, TouchableOpacity, Linking } from 'react-native';
 import * as MailComposer from 'expo-mail-composer';
 
-import logoImg from '../../assets/logo.png';
+import logoImg from '../../assets/logo2.png';
 import styles from './styles';
 
 export default function Detail () {
