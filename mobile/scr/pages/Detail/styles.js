@@ -15,7 +15,7 @@ export default StyleSheet.create ({
     },
 
     incident: {
-        padding: 10,
+        padding: 8,
         borderRadius: 8,
         backgroundColor: '#FFF',
         marginBottom: 16,
@@ -62,7 +62,7 @@ export default StyleSheet.create ({
     },
 
     action: {
-        backgroundColor: '#E02041',
+        backgroundColor: '#20ADE0',
         borderRadius: 8,
         height: 50,
         width: '48%',
